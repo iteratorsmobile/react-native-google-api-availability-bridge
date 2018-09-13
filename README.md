@@ -38,6 +38,13 @@ GoogleAPIAvailability.checkGooglePlayServices((result) => {
 |`promptGooglePlayUpdate`|`allowUse`|-Brings a popup window prompting user to update their Play Services. -Accepts a boolean that can force quit the application if the user does not wish to update|
 |`openGooglePlayUpdate`|*none*|-Opens Google Play Services in the Play Store application|
 
+## Use environment's Google Service Version
+
+You can specify googlePlayServicesVersion in "android/gradle.properties". Otherwise, it will take default version
+
+e.g.
+`googlePlayServicesVersion=16.0.3`
+
 ## TODO
 
 * Add Example App
